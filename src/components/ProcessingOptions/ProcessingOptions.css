@@ -1,0 +1,33 @@
+.processing-options {
+    margin-bottom: 2rem;
+  }
+  
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .option-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background: #2ecc71 ;
+    border-radius: 4px;
+  }
+  
+  .option-checkbox {
+    margin-right: 0.5rem;
+  }
+  
+  .option-label {
+    color: black; /* This sets the label text color to black */
+    cursor: pointer;
+    font-weight: 500; /* Optional: makes text slightly bolder */
+  }
+  
+  /* Optional: Add hover effect */
+  .option-item:hover {
+    background: #3498db;
+  }
