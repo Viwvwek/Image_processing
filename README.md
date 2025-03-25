@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Image Processing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web-based **Image Processing Application** built with **React**. It allows users to apply various image processing techniques such as **Grayscale, Edge Detection, Thresholding, Sepia Effect, Saturation, and Contrast Enhancement**.
+
+## Features
+- **Grayscale** – Converts the image to shades of gray.
+- **Edge Detection** – Highlights edges using edge-detection algorithms.
+- **Thresholding** – Converts an image to binary format based on a threshold value.
+- **Sepia Effect** – Applies a warm, brownish tint to create a vintage look.
+- **Saturation Adjustment** – Enhances or reduces the intensity of colors.
+- **Contrast Enhancement** – Adjusts contrast to make details more pronounced.
 
 ## Available Scripts
 
@@ -8,63 +16,45 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode. \
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes. You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes performance.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note:** This is a one-way operation. Once you `eject`, you cannot revert back.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How to Use
+1. Upload an image.
+2. Select one or multiple processing options (e.g., Grayscale, Edge Detection).
+3. View the processed image in real-time.
+4. Download the modified image if needed.
 
 ## Learn More
+For a deeper understanding of image processing techniques, check out:
+- [Grayscale Conversion](https://en.wikipedia.org/wiki/Grayscale)
+- [Edge Detection](https://en.wikipedia.org/wiki/Edge_detection)
+- [Thresholding](https://en.wikipedia.org/wiki/Thresholding_(image_processing))
+- [Sepia Effect](https://en.wikipedia.org/wiki/Sepia_(color))
+- [Color Saturation](https://en.wikipedia.org/wiki/Colorfulness)
+- [Contrast Adjustment](https://en.wikipedia.org/wiki/Contrast_(vision))
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Future Enhancements
+- Support for real-time filters
+- Additional processing options like Blur and Sharpening
+- AI-powered image enhancements
 
 ### Deployment
+Refer to the [React Deployment Guide](https://facebook.github.io/create-react-app/docs/deployment) to host your application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Troubleshooting
+If you encounter issues, check the [React troubleshooting guide](https://facebook.github.io/create-react-app/docs/troubleshooting).
